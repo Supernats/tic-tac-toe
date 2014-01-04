@@ -20,7 +20,7 @@
   border: 20px ridge goldenrod;
   border-radius: 5px;
   display: inline-block;
-  margin: 50px;
+  margin:0px 50px;
 }
 
 .red {
@@ -35,4 +35,6 @@
 
 h1 {
   font-size: 3em;
+  color: purple;
+  margin: 50px 70px;
 }
