@@ -103,7 +103,7 @@
     game.player == 'X' ? tile.addClass('red') : tile.addClass('green');
 
     if (game.winner()) {
-      window.alert(game.player + 'wins! Get down with your bad self!');
+      window.alert(game.player + ' wins! Get down with your bad self!');
       $('.tile').off('click');
     }
   };
